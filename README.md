@@ -1,4 +1,4 @@
-# Legislature Scan
+# Legislature Scanner
 
 Texas Legislative Session is around the corner and people are starting to feel the excitement. Everyone is counting the seconds till Jan. 13, 2015. And someone will have to count the votes.
 
@@ -23,6 +23,10 @@ And from the interpreter just:
   # ...
 }
 ```
+
+From the command line:
+
+    $ python all.py data/IMG_20141006_184225.jpg
 
 **Happy session!**
 
