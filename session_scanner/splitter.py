@@ -7,6 +7,7 @@ from skimage.filter import threshold_adaptive
 import imutils
 import transform
 
+
 class Splitter(object):
     def __init__(self, image, created_at=date.today()):
         self.image = image

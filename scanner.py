@@ -1,9 +1,5 @@
 import sys
-import cv2
-from pprint import pprint
-from splitter import Splitter
-from ocr import OCR
-from counter import Counter
+from session_scanner import *
 
 
 if __name__ == "__main__":

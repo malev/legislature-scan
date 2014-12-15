@@ -1,4 +1,5 @@
 import subprocess
+from pprint import pprint
 
 
 class OCR(object):
@@ -7,7 +8,7 @@ class OCR(object):
 
     def __call__(self):
         output = []
-        for index in [1,2,3,4]:
+        for index in range(4):
             output.append(self._get_text(index))
 
         return output
@@ -22,5 +23,5 @@ class OCR(object):
 
 
 if __name__ == '__main__':
-    ocr = OCR('build/14-09-23-0/')
-    print ocr()
+    ocr = OCR('build/14-10-21-21/')
+    pprint(ocr())
